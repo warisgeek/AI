@@ -1,5 +1,7 @@
 Smart Document Assistant - Minimal Prototype
 
+![Architecture diagram](architecturediagram.png)
+
 This is a small prototype that ingests documents, indexes them with FAISS, and allows question-answering using Google Gemini via the LangChain `langchain-google-genai` integration.
 
 Prerequisites
@@ -61,3 +63,5 @@ Extending
 - Swap FAISS for Pinecone/Weaviate by replacing `src/vectorstore.py` and adjusting the ingestion pipeline.
 - Replace the embedding model in `src/embeddings.py` with an OpenAI or Instructor model if desired.
 
+
+![App output screenshot](output.png)
