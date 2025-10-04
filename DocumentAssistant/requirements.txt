@@ -11,3 +11,4 @@ tqdm
 numpy
 scikit-learn
 python-multipart
+python-dotenv
