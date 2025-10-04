@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-google-genai
+sentence-transformers
+faiss-cpu
+pdfplumber
+python-docx
+pandas
+openpyxl
+tqdm
+numpy
+scikit-learn
+python-multipart

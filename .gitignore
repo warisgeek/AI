@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+.venv/
+
+# Byte-compiled / build
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+
+# Streamlit/cache
+.streamlit/
